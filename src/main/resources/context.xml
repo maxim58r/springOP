@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+  <!--  <bean id="personDao" class="ru.max.dao.PersonDaoSimple">
+        <property name="defaultAge" value="28"/>
+    </bean>
+&lt;!&ndash;    <bean id="personDao" class="ru.max.dao.PersonDaoSimple">&ndash;&gt;
+    <bean id="personService" class="ru.max.service.PersonServiceImpl">
+        <property name="dao" ref="personDao"/>
+    </bean>-->
+<!--    </bean>-->
+    <!--<bean id="personService" class="ru.max.service.PersonServiceImpl">
+        <constructor-arg name="dao" ref="personDao"/>
+    </bean>-->
+
+</beans>
